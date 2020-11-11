@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		ul{
+			width: 300px;
+			height: 500px;
+			border-width: 1px;
+			/* 边框为实线 */
+			border-style: solid;
+			border-color: black;
+		}
+		li{
+			/* 当前元素不受浮动影响 */
+			clear: both;
+			/* 去除圆点 */
+			list-style: none;
+		}
+		.float-left {
+			/* 左浮动 */
+			float: left;
+			background-color: #dedede;
+		}
+		.float-right {
+			/* 右浮动 */
+			float: right;
+			background-color: green;
+		}
+	</style>
+	<body>
+		<!-- 无序列表 -->
+		<ul>
+			<li class="float-right">右浮动</li>
+			<li class="float-left">左浮动</li>
+			<li class="float-right">右浮动</li>
+			<li class="float-left">左浮动</li>
+			<li class="float-right">右浮动</li>
+			<li class="float-left">左浮动</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<!-- padding 填充/内边距 -->
+	<!-- top 上  right 右  bottom 下  left 左 -->
+	<style type="text/css">
+		
+		*{
+			/* 将所有元素边距设置为0 */
+			margin: 0;
+		}
+		#box{
+			/* 宽度 */
+			overflow: auto;
+			width: 900px;
+			/* 让父元素自动设置边距,左右边距相等,水平居中 */
+			margin: auto;
+		}
+		.item{
+			
+			/* 左浮 */
+			float: left;
+			/* 边距大小 */
+			margin: 20px;
+			/* 边框:实线 黑色 */
+			border: solid black;
+			padding: 15px;
+			
+		}
+	</style>
+	<body>
+		<div id="box" align="center">
+			<div class="item">
+				<img src="img/apple1.png">
+				<br>
+				apple1
+				</div>
+			<div class="item">
+				<img src="img/apple2.png" >
+				<br>apple2
+				</div>
+			<div class="item">
+				<img src="img/apple3.png" >
+				<br>apple3
+				</div>
+		</div>
+	</body>
+</html>
